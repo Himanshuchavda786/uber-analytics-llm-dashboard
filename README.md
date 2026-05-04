@@ -1,11 +1,20 @@
-# 🚖 Uber Operations Analytics Dashboard
+# 🚖 Uber Operations Analytics Dashboard  
+### 📊 AI-Powered Business Intelligence & Ride Analytics Platform  
 
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white)
-![Groq](https://img.shields.io/badge/AI_Powered-Groq-black?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plotly-Interactive%20Charts-3f4f75?style=for-the-badge&logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analytics-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI-Groq%20Powered-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/UI-Glassmorphism%20Dark%20Theme-000000?style=for-the-badge" />
+</p>
 
-A powerful, interactive, and beautifully designed web application built with Streamlit for analyzing Uber ride data. This dashboard provides deep operational, financial, and customer insights, featuring a custom glassmorphism UI, interactive Plotly visualizations, and an integrated AI Chatbot powered by Groq.
+<p align="center">
+  <b>Transform raw Uber ride data into powerful operational insights using AI, analytics, and interactive visualization.</b>
+</p>
+
+---
 
 ## ✨ Key Features
 
@@ -18,6 +27,19 @@ The application is divided into six core modules accessible via the sidebar:
 *   **💬 AI Chatbot:** A fully integrated AI assistant powered by the **Groq API** (`Llama 3.3 70B`). Ask complex, natural language questions about the data and get human-readable insights instantly.
 *   **🎛️ Comprehensive Dashboard:** A unified view of all major metrics using interactive Plotly charts, including booking value distributions, rating histograms, and distance vs. revenue scatter plots.
 
+---
+
+## 🌟 Why This Project Stands Out
+
+✔ End-to-end analytics pipeline (Raw Data → Insights → AI)  
+✔ Executive-level dashboards with KPIs  
+✔ AI Chatbot for natural language queries  
+✔ Advanced interactive visualizations (Sankey, Sunburst, Treemap)  
+✔ Clean, modern **glassmorphism UI design**  
+✔ Production-style modular architecture  
+
+---
+
 ## 🛠️ Technology Stack
 
 *   **Frontend / Framework:** [Streamlit](https://streamlit.io/) (with custom CSS for Dark Mode & Glassmorphism)
@@ -25,6 +47,23 @@ The application is divided into six core modules accessible via the sidebar:
 *   **Data Visualization:** [Plotly Express](https://plotly.com/python/plotly-express/) & Plotly Graph Objects
 *   **Navigation:** `streamlit-option-menu`
 *   **AI Integration:** [Groq API](https://groq.com/) 
+
+---
+
+## 📊 Dashboard Preview
+
+> 📌 Add screenshots in `/images` folder
+
+### 🎧 Main Dashboard
+![Dashboard](images/dashboard.png)
+
+### 📈 Advanced Dashboard
+![Advanced](images/advanced.png)
+
+### 🤖 AI Assistant
+![AI](images/ai.png)
+
+---
 
 ## ⚙️ Data Preprocessing Pipeline
 The app automatically cleans the raw dataset upon loading:
