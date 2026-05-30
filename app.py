@@ -6,7 +6,12 @@ from groq import Groq
 
 GROQ_API_KEY = ""
 
-st.set_page_config(page_title="Uber Analytics",layout="wide")
+st.set_page_config(
+    page_title="Uber Analytics Dashboard",
+    page_icon="🚖",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 @st.cache_data
 def load_data():
