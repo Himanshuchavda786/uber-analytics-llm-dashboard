@@ -206,7 +206,8 @@ with st.sidebar:
             "chat-dots",
             "speedometer2"
         ],
-        default_index=1,
+        default_index=["Dataset", "Overview", "Ride Analytics",
+                       "Data Assistant", "Chatbot","Dashboard"].index(current_page),
 
         styles={
 
